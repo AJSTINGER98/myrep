@@ -23,7 +23,7 @@ const authenticationRoutes = require("./routes/authentication");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
-mongoose.connect("mongodb://localhost:27017/yelp_camp", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://AJStinger98:AJStinger98@cluster0-ajeew.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
 app.use(express.static(__dirname + "/public")); // __dirname represent the current directory in which we are working
 //it is used to prevent any potential error that might occur
 mongoose.set('useFindAndModify', false);
