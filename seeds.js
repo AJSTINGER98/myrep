@@ -10,28 +10,28 @@ var data = [
 		Description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Eu tincidunt tortor aliquam nulla. Faucibus vitae aliquet nec ullamcorper sit. Nullam non nisi est sit amet facilisis magna etiam. Et magnis dis parturient montes nascetur ridiculus. Libero nunc consequat interdum varius sit amet mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Ornare arcu dui vivamus arcu felis bibendum",
 		Price: "9.00",
 		author: {
-			id: "5d0cb5f42e47084a48ce27fd",
-			username: "Kevin"
+			id: "5d135eb2365282338036dbd6",
+			username: "Admin"
 		}
 	},
 	{
 		Name: "Mount Bahuka",
 		Image: "https://images.unsplash.com/photo-1541363452546-84aa064f4806?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
 		Description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Eu tincidunt tortor aliquam nulla. Faucibus vitae aliquet nec ullamcorper sit. Nullam non nisi est sit amet facilisis magna etiam. Et magnis dis parturient montes nascetur ridiculus. Libero nunc consequat interdum varius sit amet mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Ornare arcu dui vivamus arcu felis bibendum",
-		Price: "9.00",
+		Price: "10.75",
 		author: {
-			id: "5d0cb5f42e47084a48ce27fd",
-			username: "Kevin"
+			id: "5d135eb2365282338036dbd6",
+			username: "Admin"
 		}
 	},
 	{
 		Name: "Zilli Rocks",
 		Image:"https://images.unsplash.com/photo-1429044605642-68283f617432?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
 		Description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Eu tincidunt tortor aliquam nulla. Faucibus vitae aliquet nec ullamcorper sit. Nullam non nisi est sit amet facilisis magna etiam. Et magnis dis parturient montes nascetur ridiculus. Libero nunc consequat interdum varius sit amet mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Ornare arcu dui vivamus arcu felis bibendum",
-		Price: "9.00",
+		Price: "12.50",
 		author: {
-			id: "5d0cb5f42e47084a48ce27fd",
-			username: "Kevin"
+			id: "5d135eb2365282338036dbd6",
+			username: "Admin"
 		}
 	},
 	
@@ -39,10 +39,10 @@ var data = [
 		Name: "Rear Valley",
 		Image:"https://images.unsplash.com/photo-1533664733275-8b7566eb8b4f	?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
 		Description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper. Eu tincidunt tortor aliquam nulla. Faucibus vitae aliquet nec ullamcorper sit. Nullam non nisi est sit amet facilisis magna etiam. Et magnis dis parturient montes nascetur ridiculus. Libero nunc consequat interdum varius sit amet mattis. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere. Ornare arcu dui vivamus arcu felis bibendum",
-		Price: "9.00",
+		Price: "22.00",
 		author: {
-			id: "5d0cb5f42e47084a48ce27fd",
-			username: "Kevin"
+			id: "5d135eb2365282338036dbd6",
+			username: "Admin"
 		}
 	},
 	
@@ -89,8 +89,8 @@ function seedDB(){
 						comments.create({
 							text: "This place is amazing but I wish there was internet",
 							author: {
-								id: "5d0cb5f42e47084a48ce27fd",
-								username: "Kevin"
+								id: "5d135eb2365282338036dbd6",
+								username: "Admin"
 							}
 						},function(err,comment){
 							if(err){
