@@ -12,7 +12,7 @@ middlewareObject.isLoggedIn = function(req , res , next){
 	}
 	req.flash("error" , "You need to be logged in to do that");
 	res.redirect("/login");
-}
+};
 
 
 middlewareObject.checkCampOwner = function(req , res , next) {
@@ -46,7 +46,7 @@ middlewareObject.checkCampOwner = function(req , res , next) {
 		res.redirect("back");
 	}
 	
-}
+};
 
 //check comment ownership
 
@@ -85,6 +85,6 @@ middlewareObject.checkCommentOwner = function(req , res , next){
 		req.flash("error" , "You need to be logged in to do that");
 		res.redirect("back");
 	}
-}
+};
 
 module.exports = middlewareObject;
