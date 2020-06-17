@@ -1,4 +1,5 @@
 //Require all important packages
+require('dotenv').config();
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
@@ -23,7 +24,7 @@ const authenticationRoutes = require("./routes/authentication");
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
-mongoose.connect("mongodb+srv://AbhishekAmann:ghgOLSXlE4uqMEXe@cluster0-ajeew.mongodb.net/test?retryWrites=true&w=majority",{useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(process.env.MONGOURL,{useNewUrlParser: true, useUnifiedTopology: true});
 app.use(express.static(__dirname + "/public")); // __dirname represent the current directory in which we are working
 //it is used to prevent any potential error that might occur
 mongoose.set('useFindAndModify', false);
